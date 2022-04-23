@@ -18,7 +18,7 @@ public class DropManager : MonoBehaviour
             foreach (GameObject place in places)
             {
                 names.Add(place.name);
-                Debug.Log(place.name);
+                //Debug.Log(place.name);
             }
             dropdown.AddOptions(names);
         }
