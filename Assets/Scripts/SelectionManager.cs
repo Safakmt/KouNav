@@ -1,36 +1,56 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.AI;
 public class SelectionManager : MonoBehaviour
 {
-    private GameObject[] places;
-    private List<string> names = new List<string>();
+    private GameObject[] selectedPlaces;
+    private NavMeshAgent nMesh;
+    public GameObject player;
+    private GameObject cam;
+
     void Start()
     {
-        
-        TMP_Dropdown dropdown = GetComponent<TMP_Dropdown>();
-        places = GameObject.FindGameObjectsWithTag("Door");
+        selectedPlaces = GameObject.Find("ToWhere").GetComponent<DropDownInitalize>().places;
 
-        if (places != null)
-        {
-            
-            foreach (GameObject place in places)
-            {
-                names.Add(place.name);
-                //Debug.Log(place.name);
-            }
-            dropdown.AddOptions(names);
-        }
-        else
-        {
-            Debug.Log("asdawdasd");
-        }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void PlaceFromWhere(int index)
     {
-        
+        if(cam != null)
+        {
+            Destroy(cam);
+        }
+        cam = Instantiate(player, selectedPlaces[index].transform.position, selectedPlaces[index].transform.rotation);
+        nMesh = cam.GetComponent<NavMeshAgent>();
+    }
+
+    public void PlaceToWhere(int index)
+    {
+        Debug.Log(selectedPlaces[index]);
+        nMesh.destination = selectedPlaces[index].transform.position;
+
+    }
+
+    public void StopNav()
+    {
+
+        if (nMesh == null)
+        {
+            Debug.Log("hatakeStop");
+        }
+        else
+            nMesh.speed = 0;
+    }
+
+    public void StarNav()
+    {
+        if (nMesh == null)
+        {
+            Debug.Log("hatakeStart");
+        }
+        else
+            nMesh.speed = 5;
     }
 }
