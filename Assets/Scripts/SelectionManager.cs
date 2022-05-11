@@ -51,6 +51,6 @@ public class SelectionManager : MonoBehaviour
             Debug.Log("hatakeStart");
         }
         else
-            nMesh.speed = 5;
+            nMesh.speed = 3;
     }
 }
