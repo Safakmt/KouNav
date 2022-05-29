@@ -12,6 +12,7 @@ public class SelectionManager : MonoBehaviour
     public GameObject player;
     private GameObject cam;
     private int selectedindex;
+    public GameObject KouIcon;
 
     void Start()
     {
@@ -34,7 +35,7 @@ public class SelectionManager : MonoBehaviour
         Camera cm = cam.GetComponent<Camera>();
         cm = Camera.main;
         nMesh = cam.GetComponent<NavMeshAgent>();
-        
+        KouIcon.SetActive(false);
         previousMoves.Clear();
 
     }
