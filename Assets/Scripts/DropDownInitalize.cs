@@ -6,13 +6,12 @@ public class DropDownInitalize : MonoBehaviour
 {
     [SerializeField]
     private TMP_InputField selectionInput;
-    //private TMP_Dropdown dropdown;
     public GameObject[] places;
     private List<GameObject> names = new List<GameObject>();
 
     void Awake()
     {
-        //dropdown = GetComponent<TMP_Dropdown>();
+
         PlaceInitalize();
         
     }
@@ -61,8 +60,7 @@ public class DropDownInitalize : MonoBehaviour
             }
             dp.Show();  
         }
-        dp.RefreshShownValue();
-        
+        dp.value = -1;
     }
 
 }
