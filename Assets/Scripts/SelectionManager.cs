@@ -50,28 +50,15 @@ public class SelectionManager : MonoBehaviour
     public void StopNav()
     {
 
-        if (nMesh == null)
-        {
-            Debug.Log("hatakeStop");
-        }
-        else
-        {
             previousMoves.Add(cam.transform.position);
             nMesh.speed = 0;
-        }
+
     }
 
     public void StarNav()
     {
-        if (nMesh == null)
-        {
-            Debug.Log("hatakeStart");
-        }
-        else
-        {
             previousMoves.Add(cam.transform.position);
             nMesh.speed = 3;
-        }
     }
 
     public void MoveForward()
@@ -98,7 +85,6 @@ public class SelectionManager : MonoBehaviour
             nMesh.enabled = false;
             cam.transform.position = previousMoves[previousMoves.Count - 2];
             previousMoves.RemoveAt(previousMoves.Count - 1);
-            //previousMoves.RemoveAt(previousMoves.Count - 1);
             nMesh.enabled = true;
             nMesh.SetDestination(selectedToWhere[selectedindex].transform.position);
         }

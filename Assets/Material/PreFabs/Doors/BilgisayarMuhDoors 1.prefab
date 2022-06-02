@@ -1144,17 +1144,17 @@ PrefabInstance:
     - target: {fileID: 4125073218170193265, guid: a230ded676b32164eb1544a418465b74,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.103003
+      value: -15.746
       objectReference: {fileID: 0}
     - target: {fileID: 4125073218170193265, guid: a230ded676b32164eb1544a418465b74,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.517996
+      value: 26.518
       objectReference: {fileID: 0}
     - target: {fileID: 4125073218170193265, guid: a230ded676b32164eb1544a418465b74,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.3789988
+      value: -3.379
       objectReference: {fileID: 0}
     - target: {fileID: 4125073218170193265, guid: a230ded676b32164eb1544a418465b74,
         type: 3}
@@ -1195,11 +1195,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "G\xF6m\xFCl\xFC Sistem Laboratuvar\u0131"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5932176615308333745, guid: a230ded676b32164eb1544a418465b74,
-        type: 3}
-      propertyPath: m_TagString
-      value: Door
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a230ded676b32164eb1544a418465b74, type: 3}
@@ -1539,7 +1534,7 @@ PrefabInstance:
     - target: {fileID: 8055645521548841018, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_Name
-      value: DUVARLA KAPATILACAK KAPI DA BURADA DURACAK
+      value: "G\xF6r\xFCnt\xFC i\u015Fleme lab."
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -1595,6 +1590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584447208627578727, guid: b6d30c27acbf5824da6dd11d3e9822d8,
+        type: 3}
+      propertyPath: m_text
+      value: "G\xF6r\xFCnt\xFC i\u015Fleme lab."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6d30c27acbf5824da6dd11d3e9822d8, type: 3}
@@ -1854,7 +1854,7 @@ PrefabInstance:
     - target: {fileID: 8055645521548841018, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_Name
-      value: "koridor 5 kap\u0131 var i\xE7erde"
+      value: "Bilgisayar M\xFCh. \xD6\u011Fretim \xDCyeleri"
       objectReference: {fileID: 0}
     - target: {fileID: 8055645521548841018, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -1869,7 +1869,7 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.139
+      value: 0.68
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -1879,7 +1879,7 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.113
+      value: -1.347
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -1915,6 +1915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584447208627578727, guid: b6d30c27acbf5824da6dd11d3e9822d8,
+        type: 3}
+      propertyPath: m_text
+      value: "Bilgisayar M\xFCh. \xD6\u011Fretim \xFCyeleri\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6d30c27acbf5824da6dd11d3e9822d8, type: 3}

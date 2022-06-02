@@ -469,7 +469,7 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.92
+      value: 53.955
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -694,7 +694,7 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50.1
+      value: 51.582
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -759,7 +759,7 @@ PrefabInstance:
     - target: {fileID: 8055645521548841018, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_Name
-      value: "burada duvar k\xFC\xE7\xFCl\xFCp devam edecek laboratuvar var"
+      value: "Elektrik M\xFCh. laboratuvar"
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -774,12 +774,12 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.726966
+      value: 11.094
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.27599907
+      value: -3.038
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -815,6 +815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584447208627578727, guid: b6d30c27acbf5824da6dd11d3e9822d8,
+        type: 3}
+      propertyPath: m_text
+      value: "Elektrik M\xFCh. Laboratuvar"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6d30c27acbf5824da6dd11d3e9822d8, type: 3}
@@ -909,7 +914,7 @@ PrefabInstance:
     - target: {fileID: 8055645521548841018, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_Name
-      value: "5tane \xF6\u011Fretim \xFCyesi koridoru"
+      value: "Elektrik M\xFCh. \xD6\u011Fretim \xFCyeleri"
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -919,7 +924,7 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.422
+      value: 49.421
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -929,27 +934,27 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.224998
+      value: 22.219
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.000000010536713
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000010536713
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -959,12 +964,17 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584447208627578727, guid: b6d30c27acbf5824da6dd11d3e9822d8,
+        type: 3}
+      propertyPath: m_text
+      value: "Elektrik  M\xFCh. \xD6\u011Fretim \xDCyeleri\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6d30c27acbf5824da6dd11d3e9822d8, type: 3}
@@ -2859,7 +2869,7 @@ PrefabInstance:
     - target: {fileID: 8055645521548841018, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_Name
-      value: "hemen koridorun orada bi tane daha k\xFC\xE7\xFCk s\u0131n\u0131f var"
+      value: "elektrik m\xFCh. amfi"
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -2869,12 +2879,12 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56.095
+      value: 54.973
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.726966
+      value: 11.088
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -2884,22 +2894,22 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000010536713
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000010536713
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -2909,12 +2919,17 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584447208627578727, guid: b6d30c27acbf5824da6dd11d3e9822d8,
+        type: 3}
+      propertyPath: m_text
+      value: "Elektrik M\xFCh. amfi\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6d30c27acbf5824da6dd11d3e9822d8, type: 3}
@@ -3009,7 +3024,7 @@ PrefabInstance:
     - target: {fileID: 8055645521548841018, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_Name
-      value: "6 K\u0130\u015E\u0130L\u0130K ODA KOR\u0130DOR EKS\u0130K "
+      value: "Elektrik M\xFCh. \xD6\u011Fretim \xDCyeleri"
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -3019,37 +3034,37 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56.18
+      value: 54.953
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.726966
+      value: 11.104
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.5020008
+      value: 6.984
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000010536713
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000010536713
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -3059,12 +3074,17 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584447208627578727, guid: b6d30c27acbf5824da6dd11d3e9822d8,
+        type: 3}
+      propertyPath: m_text
+      value: "Elektrik M\xFCh. \xD6\u011Fretim \xFCyeleri\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6d30c27acbf5824da6dd11d3e9822d8, type: 3}

@@ -2857,7 +2857,7 @@ PrefabInstance:
     - target: {fileID: 8055645521548841018, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_Name
-      value: "10 kap\u0131l\u0131k koridor eksik \xFCst katta var ayn\u0131 koridor"
+      value: "Elektronik Haberle\u015Fme \xD6\u011Fretim \xDCyeleri"
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -2867,12 +2867,12 @@ PrefabInstance:
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 102.020004
+      value: 103.207
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.623651
+      value: 9.115
       objectReference: {fileID: 0}
     - target: {fileID: 8508865345195781461, guid: b6d30c27acbf5824da6dd11d3e9822d8,
         type: 3}
@@ -2913,6 +2913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584447208627578727, guid: b6d30c27acbf5824da6dd11d3e9822d8,
+        type: 3}
+      propertyPath: m_text
+      value: "Elektronik Haberle\u015Fme \xD6\u011Fretim \xFCyeleri\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6d30c27acbf5824da6dd11d3e9822d8, type: 3}

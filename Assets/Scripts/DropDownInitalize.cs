@@ -8,23 +8,27 @@ public class DropDownInitalize : MonoBehaviour
     private TMP_InputField selectionInput;
     public GameObject[] places;
     private List<GameObject> names = new List<GameObject>();
+    private TMP_Dropdown dropd;
 
     void Awake()
     {
-
-        PlaceInitalize();
+        dropd = GetComponent<TMP_Dropdown>();
+        PlaceInitalize(dropd);
         
     }
 
-    public void PlaceInitalize()
+    public void PlaceInitalize(TMP_Dropdown dd)
     {
         places = GameObject.FindGameObjectsWithTag("Door");
-
         if (places != null)
         {
             foreach (GameObject place in places)
             {
                 names.Add(place);
+                dd.options.Add(new TMP_Dropdown.OptionData()
+                {
+                    text = place.name
+                });
             }
         }
     }
